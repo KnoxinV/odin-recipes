@@ -17,20 +17,21 @@ img {
     width: auto;
 }
 
-.soup {
-    width: 500px;
-    object-fit: cover;
+.list,
+.content {
+    text-align: left;
 }
 
-.button {
-    background-color: rgb(255, 149, 49);
-    border: none;
-    color: white;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
+.ingrediants {
+    background: rgb(10, 53, 117);
+}
+
+.instructions {
+    background: rgb(10, 53, 117);
+}
+
+.note,
+div {
+    text-align: left;
+    font-size: small;
 }
